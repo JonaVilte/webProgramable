@@ -1,0 +1,23 @@
+.horizontal{
+    display: flex;
+}
+
+
+.organizar{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+}
+
+
+.justificado{
+    display: flex;
+    justify-content: center;
+}
+
+.justificado-c-direction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
