@@ -1,0 +1,9 @@
+nav {
+  background-color: #c8d86e;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around; /* Distribuye los elementos equitativamente */
+  padding: 0;
+}
