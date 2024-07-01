@@ -15,12 +15,13 @@ export default function RickYMorty() {
         <> Login... </>
       ) : (
         <>
-        {responseData.map((data) => (
-            <p>id: {data.id}</p>
-            <p>Name: {data.name}</p>
-            <p>Status: {data.status} </p>
-        ))}
-
+          {responseData.map((data) => (
+            <>
+              <p>id: {data.id}</p>
+              <p>Name: {data.name}</p>
+              <p>Status: {data.status} </p>
+            </>
+          ))}
         </>
       )}
     </>

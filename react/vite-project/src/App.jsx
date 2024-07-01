@@ -1,7 +1,9 @@
-import RickYMorty from "./components/RickYMorty";
+import { Conversor } from "./components/miPrimerComponente/Conversor";
 
 import GetPosts from "./components/GetPosts";
+
 import { Estado } from "./components/estado/Estado";
+
 import { Write } from "./components/miPrimerComponente/Write";
 
 function App() {
@@ -13,7 +15,7 @@ function App() {
       </div>
       <GetPosts />
  */}
-      <RickYMorty />
+      <Conversor />
     </>
   );
 }
