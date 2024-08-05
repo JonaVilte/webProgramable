@@ -1,0 +1,57 @@
+.horizontal{
+    display: flex;
+}
+
+
+.organizar{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+}
+
+
+.justificado{
+    display: flex;
+    justify-content: center;
+}
+
+.justificado-c-direction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.espacio{
+    display: grid;
+    gap: 20px;
+}
+
+.definir{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 50px, 30px, 10px;
+}
+
+.fotoDinamica{
+    width: 90%;
+    aspect-ratio: 3 / 3 ; 
+    object-fit: cover;
+}
+
+.aliniamientoFoto{
+    display: flex;
+    flex-direction: column;
+}
+
+.grilla{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 2%;
+}
+
+.borde{
+    border-radius: 25px;
+    background: #69dfe7;
+    padding: 20px;
+    width: 90%;
+   
+}

@@ -1,0 +1,14 @@
+.borde {
+  border-radius: 20px;
+  background: #69dfe7;
+  padding: 20px;
+  width: 37%;
+}
+
+.titulo {
+  color: darkred;
+}
+
+.margen {
+  margin: 2%;
+}

@@ -1,0 +1,11 @@
+1- La propiedad del CSS que nos permite cambiar un contenedor de manera flexible y eficiente es "flex"
+2- justify-content y align-items son las propiedades en CSS que nos permiten definir los espacios entre 
+dos elementos hijas. x
+3- En un contenedor flex la propiedad justify-content controla la alineación de todos los elementos 
+en el eje principal y en la propiedad align-items controla la alineación de todos los elementos 
+en el eje transversal.
+4- grid-template-columns y grid-template-rows son laa propiedades en CSS que permite definir el tamaño de las filas 
+y columnas en un contenedor grid
+5- display: grid solo nos permite una dimencion, osea 1 columna o 1 fila, mientras el display: flex
+es multidimencional, usar mas columnas y mas filas
+6- justify-content y align-items

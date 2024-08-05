@@ -1,0 +1,19 @@
+.borde {
+  border-radius: 20px;
+  background: #69dfe7;
+  padding: 20px;
+  width: 37%;
+}
+
+.margen {
+  margin: 2%;
+}
+
+.color {
+  color: maroon;
+}
+
+.tamaño {
+  width: 60%;
+  object-fit: cover;
+}
