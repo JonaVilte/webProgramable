@@ -1,3 +1,5 @@
+/* Pantalla del celular */
+
 @media (max-width: 600px) {
   body {
     background-color: rgb(226, 218, 214);
@@ -39,9 +41,15 @@
     background-color: rgb(226, 218, 214);
     color: black;
   }
+
+  nav{
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: rgb(226, 218, 214);
+  }
 }
 
-/* Estilos para tablets */
+/* Pantalla de la PC */
 @media (min-width: 601px) and (max-width: 1024px) {
   body {
     background-color: rgb(11, 44, 88);
@@ -67,6 +75,29 @@
   form textarea {
     margin-bottom: 10px;
   }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  nav ul li button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font: inherit;
+    text-decoration: underline;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  form label {
+    margin-top: 10px;
+  }          
 }
 
 body {
@@ -75,30 +106,7 @@ body {
   padding: 0;
 }
 
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
 
-nav ul li {
-  display: inline;
-  margin-right: 10px;
-}
 
-nav ul li button {
-  background: none;
-  border: none;
-  color: white;
-  cursor: pointer;
-  font: inherit;
-  text-decoration: underline;
-}
 
-form {
-  display: flex;
-  flex-direction: column;
-}
 
-form label {
-  margin-top: 10px;
-}

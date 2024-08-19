@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
@@ -7,25 +7,20 @@ import Contact from "./components/Contact";
 import "./App.css";
 
 const App = () => {
-  const [currentView, setCurrentView] = useState("home");
-
-  const renderView = () => {
-    switch (currentView) {
-      case "home":
-        return <Home />;
-      case "projects":
-        return <Projects />;
-      case "contact":
-        return <Contact />;
-      default:
-        return <Home />;
-    }
-  };
-
   return (
     <div>
-      <Header onNavigate={setCurrentView} />
-      {renderView()}
+      <Header />
+      <main>
+        <section id="home">
+          <Home />
+        </section>
+        <section id="projects">
+          <Projects />
+        </section>
+        <section id="contact">
+          <Contact />
+        </section>
+      </main>
       <Footer />
     </div>
   );

@@ -6,13 +6,20 @@ const Header = ({ onNavigate }) => {
       <nav>
         <ul>
           <li>
-            <button onClick={() => onNavigate("home")}>Inicio</button>
+            <a href="#home">
+              <button>Inicio</button>
+            </a>
+          </li>
+          
+          <li>
+            <a href="#projects">
+              <button>Proyectos</button>
+            </a>
           </li>
           <li>
-            <button onClick={() => onNavigate("projects")}>Proyectos</button>
-          </li>
-          <li>
-            <button onClick={() => onNavigate("contact")}>Contacto</button>
+            <a href="#contact">
+              <button>Contacto</button>
+            </a>
           </li>
         </ul>
       </nav>
