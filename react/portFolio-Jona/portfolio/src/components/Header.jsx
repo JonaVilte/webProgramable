@@ -5,21 +5,26 @@ const Header = ({ onNavigate }) => {
     <header>
       <nav>
         <ul>
-          <li>
-            <a href="#home">
-              <button>Inicio</button>
-            </a>
+          <li className="slide-in">
+            <div className="separación">
+              <a href="#home">
+                <button>Inicio</button>
+              </a>
+            </div>
           </li>
-          
-          <li>
+
+          <li className="slide-in">
             <a href="#projects">
               <button>Proyectos</button>
             </a>
           </li>
-          <li>
-            <a href="#contact">
-              <button>Contacto</button>
-            </a>
+
+          <li className="slide-in">
+            <div className="separación">
+              <a href="#contact">
+                <button>Contacto</button>
+              </a>
+            </div>
           </li>
         </ul>
       </nav>

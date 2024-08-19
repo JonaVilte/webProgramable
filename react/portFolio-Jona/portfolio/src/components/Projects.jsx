@@ -2,17 +2,21 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <main>
+    <main className="fade-in">
       <h1>Mis Proyectos</h1>
       <ul>
-        <li>
-          <h2>Proyecto 1</h2>
-          <p>Descripción del Proyecto 1.</p>
-        </li>
-        <li>
-          <h2>Proyecto 2</h2>
-          <p>Descripción del Proyecto 2.</p>
-        </li>
+        <div className="separación">
+          <li>
+            <h2>Proyecto 1</h2>
+            <p>Descripción del Proyecto 1.</p>
+          </li>
+        </div>
+        <div className="separación">
+          <li>
+            <h2>Proyecto 2</h2>
+            <p>Descripción del Proyecto 2.</p>
+          </li>
+        </div>
         {/* Agrega más proyectos aquí */}
       </ul>
     </main>
