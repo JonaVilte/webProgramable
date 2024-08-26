@@ -4,9 +4,9 @@ const Header = ({ onNavigate }) => {
   return (
     <header>
       <nav>
-        <ul>
+        <ul className="list-horizontal">
           <li className="slide-in">
-            <div className="separación">
+            <div className="lisra_separación">
               <a href="#home">
                 <button>Inicio</button>
               </a>
@@ -20,7 +20,7 @@ const Header = ({ onNavigate }) => {
           </li>
 
           <li className="slide-in">
-            <div className="separación">
+            <div className="lisra_separación">
               <a href="#contact">
                 <button>Contacto</button>
               </a>

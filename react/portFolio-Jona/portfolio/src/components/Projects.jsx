@@ -2,8 +2,8 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <main className="fade-in">
-      <h1>Mis Proyectos</h1>
+    <main>
+      <h1 className="orientation">Mis Proyectos</h1>
       <ul>
         <div className="separación">
           <li>

@@ -87,58 +87,106 @@
 }
 
 /* Pantalla de la PC */
+/* Pantalla de la PC */
 @media (min-width: 601px) {
   body {
-    background-color: rgb(11, 44, 88);
-    font-size: 18px;
+    background-color: rgb(226, 218, 214);
+  }
+
+  .orientation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main {
+    padding: 50px;
+    background-color: rgb(127, 161, 195);
   }
 
   header {
-    background-color: #333;
-    color: white;
+    background-color: rgb(100, 130, 173);
     padding: 10px;
   }
 
   footer {
-    background-color: #333;
-    color: white;
+    background-color: rgb(100, 130, 173);
+    color: rgb(226, 218, 214);
     text-align: center;
     padding: 10px;
   }
-  main {
-    padding: 20px;
-  }
-  form input,
-  form textarea {
-    margin-bottom: 10px;
-  }
-  nav ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  nav ul li {
-    display: inline;
-    margin-right: 10px;
-  }
-  nav ul li button {
-    background: none;
-    border: none;
-    color: white;
-    cursor: pointer;
-    font: inherit;
-    text-decoration: underline;
-  }
+
   form {
     display: flex;
     flex-direction: column;
   }
-  form label {
-    margin-top: 10px;
-  }
-}
 
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+  form input,
+  form textarea {
+    margin-bottom: 10px;
+    background-color: rgb(226, 218, 214);
+    color: black;
+  }
+
+  form button {
+    background-color: rgb(226, 218, 214);
+    color: black;
+  }
+
+  nav {
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: rgb(226, 218, 214);
+  }
+
+  .separación {
+    padding: 50px;
+  }
+
+  .lisra_separación {
+    padding: 10px;
+  }
+
+  .list-horizontal {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none; /* Opcional: quita los puntos de la lista */
+    justify-content: flex-end;
+  }
+
+  .list-horizontal li {
+    margin-right: 10px; /* Ajusta el espacio entre los elementos */
+  }
+
+  @keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  .slide-in {
+    animation: slideIn 1s ease-out;
+  }
+
+  .slide-in:nth-child(1) {
+    animation-delay: 0.2s;
+  }
+
+  .slide-in:nth-child(2) {
+    animation-delay: 0.3s; /* Ajusta el retraso como desees */
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
 }
