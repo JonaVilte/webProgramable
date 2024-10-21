@@ -3,6 +3,10 @@ import React from "react";
 const Header = ({ onNavigate }) => {
   return (
     <header>
+        <h2 className="tamañoLetra">
+          JV
+        </h2>
+
       <nav>
         <ul className="list-horizontal">
           <li className="slide-in">

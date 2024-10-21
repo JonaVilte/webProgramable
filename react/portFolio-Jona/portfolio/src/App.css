@@ -16,11 +16,13 @@
   }
 
   header {
-    background-color: rgb(100, 130, 173);
-
-    padding: 10px;
+    display: flex;
+    height: 70px;
   }
-
+  header h2{
+    margin-left: 0;
+    flex-grow: 1;
+  }
   footer {
     background-color: rgb(100, 130, 173);
     color: rgb(226, 218, 214);
@@ -105,32 +107,37 @@
   }
 
   header {
-    background-color: rgb(100, 130, 173);
+    display: flex;
+    justify-content: space-between; /* Coloca el h2 a la izquierda y la lista a la derecha */
+    align-items: center; /* Alinea verticalmente los elementos */
     padding: 10px;
   }
-
+  
+  h2 {
+    margin: 0; /* Asegura que no haya márgenes extras en el h2 */
+  }
+  
+  nav {
+    flex-grow: 1; /* Esto hace que la navegación ocupe todo el espacio restante */
+  }
+  
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: flex-end; /* Alinea los elementos de la lista hacia la derecha */
+  }
+  
+  nav ul li {
+    margin-right: 10px; /* Espaciado entre los elementos de la lista */
+  }
+  
   footer {
     background-color: rgb(100, 130, 173);
     color: rgb(226, 218, 214);
     text-align: center;
     padding: 10px;
-  }
-
-  form {
-    display: flex;
-    flex-direction: column;
-  }
-
-  form input,
-  form textarea {
-    margin-bottom: 10px;
-    background-color: rgb(226, 218, 214);
-    color: black;
-  }
-
-  form button {
-    background-color: rgb(226, 218, 214);
-    color: black;
   }
 
   nav {
@@ -145,6 +152,11 @@
 
   .lisra_separación {
     padding: 10px;
+  }
+
+  .tamañoLetra{
+    font-size: 70px;
+    color: rgb(100, 130, 173);
   }
 
   .list-horizontal {
@@ -189,4 +201,22 @@
       opacity: 1;
     }
   }
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input,
+form textarea {
+  margin-bottom: 10px;
+  background-color: rgb(226, 218, 214);
+  color: black;
+}
+
+form button {
+  background-color: rgb(226, 218, 214);
+  color: black;
 }
