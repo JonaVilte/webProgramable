@@ -2,7 +2,7 @@ import React from "react";
 
 function Habilidades() {
   return (
-    <section className="skills-section">
+    <section className="skills-section animate__animated animate__bounceInLeft">
       <h1 className="skills-title">Habilidades</h1>
       <div className="skills-grid">
         <div className="skill-item">

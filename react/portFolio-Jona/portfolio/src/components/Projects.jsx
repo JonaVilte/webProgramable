@@ -1,8 +1,10 @@
 import React from "react";
+import 'animate.css';
+
 
 const Projects = () => {
   return (
-    <main>
+    <main className="animate__animated animate__fadeIn">
       <h1 className="orientation">Mis Proyectos</h1>
       <ul>
         <div className="separación proyecto-grupo">

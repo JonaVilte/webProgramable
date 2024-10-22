@@ -1,8 +1,9 @@
 import React from "react";
+import 'animate.css';
 
 const Header = ({ onNavigate }) => {
   return (
-    <header>
+    <header className="animate__animated animate__backInDown">
         <h2 className="tamañoLetra">
           JV
         </h2>

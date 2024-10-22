@@ -1,9 +1,11 @@
 import React from "react";
+import 'animate.css';
+
 
 const Home = () => {
   return (
-    <main className="orientation" >
-      <div className="home" id="home">
+    <main>
+      <div className="home animate__animated animate__bounceInLeft" id="home">
       <div className="home-content">
       <h1>hola!, Bienvenido a Mi Portafolio.</h1>
       <h3>Mi nombre es Jonatan Vilte</h3>
