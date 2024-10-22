@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Projects from "./components/Projects";
-import Contact from "./components/Contact";
+import Habilidades from "./components/Habilidades";
 import "./App.css";
 
 const App = () => {
@@ -18,7 +18,7 @@ const App = () => {
           <Projects />
         </section>
         <section id="contact">
-          <Contact />
+          <Habilidades />
         </section>
       </main>
       <Footer />

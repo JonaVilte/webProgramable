@@ -249,6 +249,50 @@
     gap: 2rem;
   }
 
+  .skills-section {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .skills-title {
+    font-size: 2.5em;
+    margin-bottom: 90px;
+    color: #333;
+  }
+  
+  .skills-grid {
+    display: flex; /* Cambiado a flexbox */
+    justify-content: center; /* Centra los íconos en la fila */
+    gap: 200px; /* Espacio entre los íconos */
+    flex-wrap: nowrap; /* Evita que los íconos se muevan a la siguiente fila */
+  }
+  
+  .skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease; /* Suaviza la animación de zoom */
+  }
+  
+  .skill-item:hover {
+    transform: scale(1.1); /* Efecto de zoom al pasar el ratón */
+  }
+  
+  .skill-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+  
+  .skill-item p {
+    font-size: 1.1em;
+    margin-top: 5px;
+    color: #555;
+  }
+    
 }
 
 
