@@ -133,13 +133,49 @@
     margin-right: 10px; /* Espaciado entre los elementos de la lista */
   }
   
-  footer {
-    background-color: rgb(100, 130, 173);
-    color: rgb(226, 218, 214);
-    text-align: center;
-    padding: 10px;
+  .footer {
+    background-color: rgb(100, 130, 173); /* Color de fondo oscuro */
+    color: #f9f9f9; /* Color del texto claro */
+    padding: 20px 0; /* Espaciado vertical */
+    text-align: center; /* Centra el texto */
   }
-
+  
+  .footer p {
+    margin: 0; /* Elimina el margen del párrafo */
+    font-size: 1em; /* Tamaño de fuente estándar */
+  }
+  
+  .footer a {
+    color: #f9f9f9; /* Color de enlace */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    transition: color 0.3s ease; /* Transición suave para el color del enlace */
+  }
+  
+  .footer a:hover {
+    color: #646cff; /* Cambia el color del enlace al pasar el ratón */
+  }
+  
+  .footer .social-links {
+    margin-top: 10px; /* Espacio encima de los enlaces sociales */
+  }
+  
+  .footer .social-links a {
+    margin: 0 10px; /* Espacio entre los íconos de redes sociales */
+    display: inline-block; /* Permite ajustar el tamaño de los íconos */
+    font-size: 1.5em; /* Tamaño de los íconos sociales */
+  }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    .footer {
+      padding: 15px 0; /* Menor espaciado en pantallas pequeñas */
+    }
+  
+    .footer .social-links a {
+      font-size: 1.2em; /* Tamaño más pequeño en pantallas pequeñas */
+    }
+  }
+  
   nav {
     padding: 10px 20px;
     border-radius: 50px;
@@ -238,9 +274,12 @@
     border-radius: 50%;
   }
 
+  .icono-img{
+    width: 2vw;
+  }
+
   .proyecto-img{
     width: 22vw;
-
   }
   .proyecto-grupo{
     display: flex;
